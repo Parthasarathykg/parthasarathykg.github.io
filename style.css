@@ -3,6 +3,9 @@ body{
   padding: 0;
   background: url(images/nikita-kachanovsky-445394-unsplash.jpg) no-repeat;
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 .box{
   width: 450px;
@@ -16,8 +19,10 @@ body{
 }
 .box-img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 190px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 .box h1{
   font-size: 40px;
@@ -49,4 +54,97 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+#parthu{
+  margin-top:100px;
+  background:rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.head h1{
+  color: WHITE;
+  font-family: 'Courgette', cursive;
+    font-size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.font {
+  margin-top: 5%;
+  color: white;
+  margin-left: 50px;
+  font-family: 'Century Gothic',sans-serif;
+}
+.accordion {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:rgba(0, 0, 0, 0.2)
+    overflow: hidden;
+    color: white;
+}
+#Acc{
+  margin-top: 20px;
+  width:50%;
+  margin-left: 25%
+}
+.image1{
+    width:30%;
+    height:30%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+ }
+.smaboxr{
+
+  width: 40%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: 25px;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  display:inline-block;
+}
+.id{
+  margin-left: 20px;
+}
+.image1:hover
+{
+  transform: scale(1.15);
 }
