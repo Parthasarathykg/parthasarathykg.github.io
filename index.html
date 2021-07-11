@@ -102,8 +102,8 @@
 			function tick() {
 		
 			var currentdate = new Date(); 
-			var seconds = currentdate.getSeconds() + (currentdate.getMinutes() * 60) + (currentdate.getHours() * 360);
-			document.getElementById("seconds").innerHTML = seconds;
+			var seconds = 86400 - currentdate.getSeconds() + (currentdate.getMinutes() * 60) + (currentdate.getHours() * 360);
+			document.getElementById("seconds").innerHTML = Seconds Available + seconds;
 			window.setTimeout(tick, 1000);
 			
 			}
