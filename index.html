@@ -103,7 +103,7 @@
 		
 			var currentdate = new Date(); 
 			var seconds = 86400 - currentdate.getSeconds() + (currentdate.getMinutes() * 60) + (currentdate.getHours() * 360);
-			document.getElementById("seconds").innerHTML = Seconds Available + seconds;
+			document.getElementById("seconds").innerHTML = "Amount Spent :" + seconds;
 			window.setTimeout(tick, 1000);
 			
 			}
