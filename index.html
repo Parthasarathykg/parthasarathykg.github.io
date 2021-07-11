@@ -98,9 +98,14 @@
               });
             }
 			
+			function tick() {
+		
 			var currentdate = new Date(); 
-			var seconds = currentdate.getSeconds();
+			var seconds = currentdate.getSeconds() + (currentdate.getMinutes() * 60) + (currentdate.getHours() * 360);
 			document.getElementById("seconds").innerHTML = seconds;
+			window.setTimeout(tick, 1000);
+			
+			}
           </script>
         </div>
 
