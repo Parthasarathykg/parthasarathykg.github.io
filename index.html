@@ -31,8 +31,8 @@
 
   </div>
   <div class="head">
-    <h1>
-      Gryffindor.io
+    <h1 id = "seconds">
+		
     </h1>
   </div>
   <div class="box">
@@ -44,7 +44,7 @@
       About me
     </h1>
     <h5>
-      Backend developer | Machine learning Enthusiast </h5>
+      Salesforce developer | Machine learning Enthusiast </h5>
       <center>
         To Know more about me</center>
         <ul>
@@ -97,6 +97,10 @@
                 }
               });
             }
+			
+			var currentdate = new Date(); 
+			var seconds = currentdate.getSeconds();
+			document.getElementById("seconds").innerHTML = seconds;
           </script>
         </div>
 
